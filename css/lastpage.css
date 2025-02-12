@@ -34,6 +34,7 @@ h1 {
   color: #ff69b4;
   margin-bottom: 20px;
   animation: fadeIn 2s ease-in-out;
+  font-weight: 100;
 }
 
 #summary-card {
