@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thank You</title>
+    <link rel="stylesheet" href="css/thankyou.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div id="thankyou"><b>Thank you for accepting to be my Valentine!</b></div>
+      <img id="rizz" src="https://media.tenor.com/9TKxcyxQQxIAAAAM/cat-dance-dancing-cat.gif" alt="rizzler god" class="responsive" />
+      <br />
+      <h1>Don't go yet!</h1>
+      <button class="button" onclick="location.href='activities.html'">
+        Click me to go on a date with me!
+      </button>
+      <div class="card">
+        <div class="message">
+          <p>I'm so excited to call you my Valentine. Let's make it unforgettable!</p>
+          <p>Here's a little poem for you:</p>
+          <blockquote>
+            Roses are red,<br>
+            Violets are blue,<br>
+            I'm so happy,<br>
+            To be with you.
+          </blockquote>
+        </div>
+      </div>
+      
+    </div>
+    <div class="hearts">
+      <div class="heart"></div>
+      <div class="heart"></div>
+      <div class="heart"></div>
+    </div>
+    <script>
+      function toggleLetter() {
+        var letter = document.getElementById("letter");
+        if (letter.style.display === "none" || letter.style.display === "") {
+          letter.style.display = "block";
+        } else {
+          letter.style.display = "none";
+        }
+      }
+    </script>
+  </body>
+</html>
